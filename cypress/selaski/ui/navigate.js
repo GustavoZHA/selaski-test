@@ -1,7 +1,7 @@
-const url = Cypress.env('Url');
+const url = Cypress.env('url');
 
 export class Navigate {
-    loginPage () {
+    loginPage() {
         cy.visit(url)
     }
 }

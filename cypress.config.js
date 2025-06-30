@@ -2,6 +2,9 @@ const cucumber = require('cypress-cucumber-preprocessor').default
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  video: true,
+  videoCompression: 32,
+  videoUploadOnPasses: false,
   e2e: {
     defaultCommandTimeout: 4000,
     setupNodeEvents(on, config) {

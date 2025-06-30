@@ -1,7 +1,7 @@
 /// <reference types="cypress"/>
 
 import { When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import {Navigate} from "../../selaski/ui/navigate";
+import { Navigate } from "../../selaski/ui/navigate";
 
 var navigate = new Navigate()
 
