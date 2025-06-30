@@ -47,3 +47,7 @@ cypress-cucumber-pom-project
 `./node_modules/.bin/cypress open`
 4. Ejecutar desde la consola
  `npx cypress run --spec **/*.feature --browser chrome`
+
+## Aclaraciòn
+1. Las pruebas requeridas estan en al archivo \cypress\e2e\test.feature.
+2. Los videos y screenshot se generan cuando las pruebas fallan
